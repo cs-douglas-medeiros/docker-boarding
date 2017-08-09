@@ -16,6 +16,7 @@ docker run -d \
   -e ITC_PASSWORD=passForMyUser \
   -e ITC_APP_ID=targetAppId \
   -e ITC_APP_TESTER_GROUPS="My Testers Group" \
+  -e FASTLANE_ITC_TEAM_ID="0123" \
   -p 3000:3000 \
   emcniece/docker-boarding
 ```
